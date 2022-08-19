@@ -196,11 +196,12 @@ acred tx staking create-validator -y \
   --chain-id bamboo_9000-1 \
   --moniker <moniker-name> \
   --pubkey "$(acred tendermint show-validator)" \
-  --amount 1000000uacre \
+  --amount 5000000000000000000uacre \
   --identity "<Keybase.io ID>" \
   --website "<website-address>" \
   --details "Some description" \
   --from <wallet-name> \
+  --gas=300000 \
   --commission-rate=0.0 \
   --commission-max-rate=0.05 \
   --commission-max-change-rate=0.01 \
@@ -212,11 +213,12 @@ acred tx staking create-validator -y \
   --chain-id bamboo_9000-1 \
   --moniker "Synergy Nodes" \
   --pubkey "$(acred tendermint show-validator)" \
-  --amount 1000000uacre \
+  --amount 5000000000000000000uacre \
   --identity "D74433D32938F013" \
   --website "http://www.mywebsite.com" \
   --details "Some description" \
   --from my_wallet \
+  --gas=300000 \
   --commission-rate=0.0 \
   --commission-max-rate=0.05 \
   --commission-max-change-rate=0.01 \
