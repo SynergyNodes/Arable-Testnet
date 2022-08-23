@@ -226,7 +226,7 @@ acred tx staking create-validator -y \
   
 ```
 
-## Get Validator Operator Address (Valapor Address)
+## Get Validator Operator Address (Valoper Address)
 
 Make sure to change ``<wallet-name>`` to correct values.
 
