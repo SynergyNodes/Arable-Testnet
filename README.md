@@ -36,7 +36,7 @@ sudo apt install pkg-config build-essential libssl-dev curl jq git libleveldb-de
 sudo apt-get install manpages-dev -y
 
 # install go
-curl https://dl.google.com/go/go1.18.3.linux-amd64.tar.gz | sudo tar -C/usr/local -zxvf -
+curl https://dl.google.com/go/go1.18.5.linux-amd64.tar.gz | sudo tar -C/usr/local -zxvf -
 
 ```
 
